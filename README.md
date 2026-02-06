@@ -1,5 +1,13 @@
 # 微信公众号自动运营系统
 
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker)](https://www.docker.com/)
+[![Claude AI](https://img.shields.io/badge/Claude%20AI-3.5%20Sonnet-purple.svg)](https://www.anthropic.com/claude)
+[![LangGraph](https://img.shields.io/badge/LangGraph-Agents-orange.svg)](https://github.com/langchain-ai/langgraph)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.109%2B-teal.svg)](https://fastapi.tiangolo.com/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 基于 AI Agent 的微信公众号全流程自动化运营系统，实现内容生成、粉丝互动、数据分析等核心功能。
 
 ## ✨ 核心特性
