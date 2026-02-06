@@ -1,0 +1,56 @@
+# 主配置文件
+
+app:
+  name: "WeChat Auto Operation System"
+  version: "1.0.0"
+  debug: false
+  environment: production
+
+server:
+  host: 0.0.0.0
+  port: 8000
+  workers: 4
+  reload: false
+
+database:
+  pool_size: 20
+  max_overflow: 10
+  pool_timeout: 30
+  pool_recycle: 3600
+  echo: false
+
+redis:
+  default_ttl: 3600
+  max_connections: 50
+
+celery:
+  worker_concurrency: 4
+  task_time_limit: 3600
+  task_soft_time_limit: 3000
+
+content:
+  default_word_count: 1500
+  min_word_count: 800
+  max_word_count: 3000
+  title_variants: 5
+
+analytics:
+  data_retention_days: 90
+  report_generation_time: "08:00"
+
+scheduler:
+  content_publish_times:
+    - "08:00"
+    - "12:00"
+    - "18:00"
+    - "21:00"
+
+rate_limit:
+  api_requests_per_minute: 60
+  claude_requests_per_minute: 50
+  wechat_api_calls_per_hour: 1000
+
+monitoring:
+  prometheus_port: 9090
+  sentry_dsn: ""
+  enable_performance_tracking: true
