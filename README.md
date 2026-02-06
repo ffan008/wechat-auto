@@ -340,7 +340,7 @@ MIT License
 ## 📞 联系方式
 
 - Issues: [GitHub Issues](link)
-- Email: your-email@example.com
+- Email: 915374524@qq.com
 
 ## 🎯 路线图
 
