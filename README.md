@@ -1,12 +1,24 @@
 # 微信公众号自动运营系统
 
-[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker)](https://www.docker.com/)
-[![Claude AI](https://img.shields.io/badge/Claude%20AI-3.5%20Sonnet-purple.svg)](https://www.anthropic.com/claude)
-[![LangGraph](https://img.shields.io/badge/LangGraph-Agents-orange.svg)](https://github.com/langchain-ai/langgraph)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.109%2B-teal.svg)](https://fastapi.tiangolo.com/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Release](https://img.shields.io/github/v/release/ffan008/wechat-auto?style=flat-square)](https://github.com/ffan008/wechat-auto/releases)
+[![License](https://img.shields.io/github/license/ffan008/wechat-auto?style=flat-square)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/ffan008/wechat-auto?style=flat-square)](https://github.com/ffan008/wechat-auto/stargazers)
+[![Forks](https://img.shields.io/github/forks/ffan008/wechat-auto?style=flat-square)](https://github.com/ffan008/wechat-auto/network/members)
+[![Issues](https://img.shields.io/github/issues/ffan008/wechat-auto?style=flat-square)](https://github.com/ffan008/wechat-auto/issues)
+
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square&logo=python)](https://www.python.org/downloads/)
+[![Docker](https://img.shields.io/badge/docker-%230db7ed?style=flat-square&logo=docker)](https://www.docker.com/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.109%2B-teal?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-336791?style=flat-square&logo=postgresql)](https://www.postgresql.org/)
+[![Redis](https://img.shields.io/badge/Redis-7-DC382D?style=flat-square&logo=redis)](https://redis.io/)
+
+[![Claude AI](https://img.shields.io/badge/Claude%20AI-3.5%20Sonnet-purple?style=flat-square)](https://www.anthropic.com/claude)
+[![LangGraph](https://img.shields.io/badge/LangGraph-Agents-orange?style=flat-square)](https://github.com/langchain-ai/langgraph)
+[![Celery](https://img.shields.io/badge/Celery-5.3%2B-green?style=flat-square&logo=celery)](https://docs.celeryproject.org/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000?style=flat-square)](https://github.com/psf/black)
+
+[![Tests](https://img.shields.io/badge/tests-pytest-blue?style=flat-square&logo=pytest)](tests/)
+[![Code Coverage](https://img.shields.io/badge/coverage-?style=flat-square)](tests/)
 
 基于 AI Agent 的微信公众号全流程自动化运营系统，实现内容生成、粉丝互动、数据分析等核心功能。
 
